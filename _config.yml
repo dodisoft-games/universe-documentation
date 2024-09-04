@@ -28,7 +28,7 @@ twitter_username: dodidodidodi
 github_username:  dodidodidodi
 
 # Build settings
-remote_theme: just-the-docs
+theme: just-the-docs
 color_scheme: dark
 plugins:
   - jekyll-feed

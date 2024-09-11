@@ -1,5 +1,7 @@
 code {
-    font-family: "SFMono-Regular", menlo, consolas, monospace;
-    font-size: 0.75em;
-    line-height: 1;
+    tab-size: 4;
+}
+
+.highlight pre {
+    line-height: 1.2em;
 }

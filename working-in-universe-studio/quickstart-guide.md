@@ -5,7 +5,7 @@ nav_order: 4
 parent: Working in Uni-verse Studio
 ---
 
-# Quickstart Guide (WORK IN PROGRESS)
+# Quickstart Guide 
 
 Embarking on your journey into game development is an exciting endeavor, and we're thrilled to accompany you as you explore the endless possibilities within Uni-verse Studio. Whether you're a seasoned developer seeking a new platform or a newcomer eager to dive into the world of game creation, this guide is designed to equip you with the fundamental knowledge and skills to kickstart your game development journey.
 
@@ -27,17 +27,17 @@ After logging in, click the "New project" button in Uni-verse Project Explorer t
 
 Uni-verse Studio provides unlimited freedom to developers but that freedom comes with a cost: when you first create your project, it will be completely empty and you will need to download your assets manually. But fret not! This step is very simple:
 
-- Open the Store.
-- Search for "Framework" and import the latest version.
-- Search for "Helper scripts" and import the latest version.
+- Open the Store
+- Search for "Framework" and import the latest version
+- Search for "Helper scripts" and import the latest version
 
 You are half-way there already! With these packages imported, you can code your game but you are still missing assets. Luckily, you now know how to do that:
 
-- Open the Store.
-- Search for "Primitives" and import the latest version.
-- Search for "Cube" and import the latest version.
-- Search for "Sphere" and import the latest version.
-- Search for "Amorph" and import the latest version.
+- Open the Store
+- Search for "Primitives" and import the latest version
+- Search for "Cube" and import the latest version
+- Search for "Sphere" and import the latest version
+- Search for "Amorph" and import the latest version
 
 Now that we have everything to create our game, we can move on to the fun part!
 
@@ -47,7 +47,7 @@ A scene contains the game objects to interact with in a game. Let's create that 
 
 - Right click in the Project component and click "New scene"
 - Name your scene something cool, like "Main"
-- Double click on your scene to open it.
+- Double click on your scene to open it
 
 This sets your scene as the active scene and you can see it in the Scene component. 
 
@@ -57,22 +57,23 @@ We have a scene, but it doesn't have a camera! Which means even though we can se
 
 - Right click in the Hierarchy component and click "Create Empty"
 - Name this new game object "Camera"
-- In the inspector panel, click "Attach script"
-- Search for "Camera" and click "Attach script"
-- FOV to 20
-- Position to 0, 3, -20
-- Right click in the Hierarchy component and click "Create Empty"
-- Name this new game object "Light"
-- In the inspector panel, click "Attach script"
-- Search for "Light" and click "Attach script"
-- Position to 0, 5, -6
-- Rotation to 75, 0, 0
-- Type to Directional
-- Disable shadows
+- In the inspector panel, click "Attach script", and then search for "Camera" and click "Attach script"
+- Now set FOV to 20, and position to (0, 3, -20)
 
-## Let's get some ground
+A camera alone can't capture magic — lights make all the difference!
 
-In this game, we will -- fill here --. To do that, we need a ground. A cube can do the job:
+- In the Hierarchy panel, right-click and choose "Create Empty"
+- Give this new object the name "Light"
+- Over in the Inspector panel, click on "Attach Script"
+- Type "Light" in the search bar and attach the script
+- Set the position to (0, 5, -6)
+- Adjust the rotation to (75, 0, 0)
+- Change the light type to "Directional"
+- Lastly, turn off the shadows for this light
+
+## Let's get some ground...
+
+In this game, the player will fire bullets at falling rocks to split them into two until they are completely destroyed. The undestroyed rocks will bounce off the ground. To do that, we need, well, a ground. A cube can do the job for now:
 
 - Double click on Bundles, and then double click on Cube Model
 - Click on Cube and drag and drop it on to the scene
@@ -80,32 +81,36 @@ In this game, we will -- fill here --. To do that, we need a ground. A cube can 
 - Also tag it as "Ground" in the Inspector
 - Now scale it in the Inspector as such so that it looks more like a ground:
     - X: 20, Y: 0.1, Z: 5
-- And make sure your Ground is at 0, 0, 0
+- And make sure your Ground is at (0, 0, 0)
 - Attach the "Box Collider" script to the ground.
 - Set the collider size to (1, 1, 1).
 - Set the center to (0.5, 0.5, 0.5).
 
-Now click the "World" button in the Scene view to save and exit the scene.
+And finally click the "World" button in the Scene view to save and exit the scene. Now you have a ground for your rocks to bounce.
 
-## Ilk tasi gunahsiz olaniniz atsin
+## ...and throw some rocks
+
+It's time to add some falling rocks to bring a bit of action! These rocks will drop from above, creating dynamic movement in the scene.
 
 - In the Project component, right-click and select "Create folder", and name the folder "Packs"
 - Right-click on the newly created "Packs" folder, select "Create UniPack" and name it "Stone"
 - Right-click on "Stone" and choose "Edit pack"
-- Navigate to the "Bundles" folder, locate and double-click "Amorph" to open it.
-- Drag and drop "Amorph" onto the scene.
+- Navigate to the "Bundles" folder, locate and double-click "Amorph" to open it
+- Drag and drop "Amorph" onto the scene
 - Set the scale of the "Amorph" model to 0.5, press CTRL + A to save your changes and then go back to the root of the "Stone" pack by clicking "Stone \[Pack\]" in the Hierarchy component
 - Go to the root in the Project component, right-click and create a folder named "Scripts"
 - Go into "Scripts", right-click and create a new script called "Stone"
 - Drag and drop this newly created "Stone" script onto the root of your "Stone" object
 - Click "Attach script" and search for "Collider", then select "Sphere collider" from the list
-- In the Physics section in the Inspector component, set the Event receiver by dragging and dropping the "Stone" pack.
-- Click the three dots next to the receiver and select "Stone."
-- And then finally lock the ZPosition in the Physics settings.
+- In the Physics section in the Inspector component, set the Event receiver by dragging and dropping the "Stone" pack
+- Click the three dots next to the receiver and select "Stone"
+- And then finally lock the ZPosition in the Physics settings
 
-Now click the "World" button in the Scene view to save and exit the scene.
+And just like you did before click the "World" button to exit the scene.
 
-## Create the player
+## Main character syndrome
+
+No game is complete without a player. We are not looking for a complex individual with a convoluted background though. All we need is a box to represent the win/lose state:
 
 - Right-click in the "Packs" folder, select "Create UniPack" and name it "Player"
 - Right-click on "Player" and choose "Edit pack"
@@ -114,9 +119,11 @@ Now click the "World" button in the Scene view to save and exit the scene.
 - Right-click in the hierarchy and create an empty game object
 - Rename it to "FirePoint" and set its position to (0.00, 1.00, 0.00) 
 
-Now click the "World" button in the Scene view to save and exit the scene.
+Before moving on to the next step, don't forget to save and exit the scene via the "World" button.
 
-## Create the bullet
+## Bite the bullet
+
+We have a player but it's defenseless against those pesky rocks! We need to arm them so that they can stand a fighting chance. A bullet will suffice for now:
 
 - Right-click in the "Packs" folder, select "Create UniPack" and name it "Bullet"
 - Right-click on "Bullet" and choose "Edit pack"
@@ -127,23 +134,23 @@ Now click the "World" button in the Scene view to save and exit the scene.
 - Click "Attach script" and search for "Collider", then select "Sphere collider" from the list
 - Set the collider's center to (0.00, 0.50, 0.00) and radius to 0.7
 
-Now click the "World" button in the Scene view to save and exit the scene.
+## Whoa! Where did that come from?
 
-## Create spawn points
+Everything in the scene should come from somewhere, right? So let's create the spawn points for them. This step will be the easiest: 
 
 - In the scene, right-click in Hierarchy, create an empty game object and rename it to "StoneSpawnPoint"
 - Right-click in Hierarchy one more time, create another empty game object and rename it to "PlayerSpawnPoint"
 
 ## Create scripts
 
+And right after the easiest step, we'll tackle the most complex one: making the whole game functional. For this, we will create code files called scripts. One script will control the movement of bullets that are fired by the player (Fire). Another one will control the player itself (Player). The falling rocks will move on their own thanks to the physics system but we will still need to split them when they are hit by the bullets and bounce them off the ground if they hit the ground without touching anything else (Stone). And finally we will use a script to put everything together like starting and ending the game (GameManager). Have a look at these scripts below:
+
 ### Fire
 ```
 class Fire
 {
-	float @speed = 5;
-	
+	float @speed = 5;	
 	UniObject uni;
-	
 	
 	void OnInit()
 	{
@@ -267,7 +274,6 @@ class Stone
 	Physics physics;
 	GameManager gManager;
 	
-	
 	void OnInit()
 	{
 		uni = UniObjectUtil.GetUniObject(this);
@@ -384,12 +390,10 @@ class GameManager
 	UniAsset @playerPack;
 	UniAsset @stonePack;
 	
-	
 	int score;
 	bool isGameOver = true;
 	float nextSpawn;
 	Player player;
-
 
 	void OnStart()
 	{
@@ -539,4 +543,4 @@ class GameManager
 - In Anims to LoopHorizontal
 - Set its text to "Game Over", text size to 100
 
-With these steps completed, you've set up the foundational elements of your projec
+With these steps completed, you've set up the foundational elements of your project. You can now hit play and enjoy your first game in Uni-verse Studio! It may look and play rather rudimentary but this is just a start! With Uni-verse Studio and a little bit of imagination, you can create everything from a simple hyper-casual to a multiplayer first person shooter!

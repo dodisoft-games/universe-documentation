@@ -23,6 +23,9 @@ When you first start Uni-verse Studio, the login page will welcome you. If you a
 
 After logging in, click the "New project" button in Uni-verse Project Explorer to start creating your first game. Give a name to your game and then click "OK". In this instance, we named our game "My awesome game".
 
+![New project]({{site.url}}{{site.baseurl}}/content/images/project-name.png)
+*New project window*
+
 ## Importing the essentials
 
 Uni-verse Studio provides unlimited freedom to developers but that freedom comes with a cost: when you first create your project, it will be completely empty and you will need to download your assets manually. But fret not! This step is very simple:
@@ -30,6 +33,9 @@ Uni-verse Studio provides unlimited freedom to developers but that freedom comes
 - Open the Store
 - Search for "Framework" and import the latest version
 - Search for "Helper scripts" and import the latest version
+
+![Store]({{site.url}}{{site.baseurl}}/content/images/asset-store.png)
+*Asset store*
 
 You are half-way there already! With these packages imported, you can code your game but you are still missing assets. Luckily, you now know how to do that:
 

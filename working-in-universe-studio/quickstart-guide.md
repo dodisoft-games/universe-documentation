@@ -522,10 +522,14 @@ class GameManager
 
 ## Interacting with the user
 
+If the player is not interacting with the game, is it really a game? Not so much, so let's add the UI then! We'll start with the controls, and then move onto the menus.
+
 ### Controls
 
+We need two things to control the player: a button to fire, and a joystick to move around. Uni-verse has pre-made components for both:
+
 - In the Project window, right-click and create a new folder named "UI"
-- Right-click on the UI folder and select "New UI" Name it "UI"
+- Right-click on the UI folder and select "New UI", then name it "UI"
 - Right-click on "UI" and select "Edit UI"
 - Click "Add panel" and name it "Controls"
 - Drag and drop a Joystick onto the panel, name it "Move," and position it in the left bottom corner (150, 100) and resize it to (300, 300).
@@ -535,33 +539,38 @@ class GameManager
     Right: D, right arrow
     Fire: Space
     Start: Return
-- Select the joystick and assign the corresponding actions.
-- Select the button and assign the "Fire" action.
+- Select the joystick and assign the corresponding actions
+- Select the button and assign the "Fire" action
 - Go back to UI 
 
+![Controls]({{site.url}}{{site.baseurl}}/content/images/controls.png)
+*This is how your UI should look like after creating the fire button and the joystick*
+
 ### Start
+
+We'll need 3 basic UI panels for the whole game. One for starting the game...
 
 - Click "Add panel" and name it "Start"
 - Drag and drop a button onto the panel
 - Set its anchor to bottom-mid, position to (0, 190) and size to (300, 100)
-- In Anims to MoveFromDownMid and Out Anims to MoveToDownFar
-- Delay to (1, 0)
+- Set "In Anims" to "MoveFromDownMid" and "Out Anims" to "MoveToDownFar" (you can actually choose any animation you like, but for the purposes of this tutorial we'll stick with these)
+- Set "Delay" to (1, 0)
 - Set its text to "Start" and action to "Start"
 
-### Game
+...one for keeping the score while playing...
 
 - Click "Add panel" and name it "Game"
 - Drag and drop a text field onto the panel and name it to "Score"
 - Set its anchor to top-right, position to (-50, -50) and size to (200, 80)
-- In Anims to MoveFromRightMid
+- Set "In Anims" to "MoveFromRightMid" (again, feel free to explore if you are a little adventurous)
 - Set its text to "0" and alignment to right
 
-### Game Over
+...and one for when the game is finally over:
 
 - Click "Add panel" and name it "Game Over"
 - Drag and drop a text field onto the panel
 - Set its position to (0, 95) and size to (400, 100)
-- In Anims to LoopHorizontal
+- Set "In Anims" to "LoopHorizontal"
 - Set its text to "Game Over", text size to 100
 
 With these steps completed, you've set up the foundational elements of your project. You can now hit play and enjoy your first game in Uni-verse Studio! It may look and play rather rudimentary but this is just a start! With Uni-verse Studio and a little bit of imagination, you can create everything from a simple hyper-casual to a multiplayer first person shooter!

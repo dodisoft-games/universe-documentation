@@ -55,6 +55,9 @@ A scene contains the game objects to interact with in a game. Let's create that 
 - Name your scene something cool, like "Main"
 - Double click on your scene to open it
 
+![First scene]({{site.url}}{{site.baseurl}}/content/images/first-scene.png)
+*Your first scene. Look how empty but full of opportunities it is*
+
 This sets your scene as the active scene and you can see it in the Scene component. 
 
 ## Lights, camera, and ACTION!
@@ -65,6 +68,9 @@ We have a scene, but it doesn't have a camera! Which means even though we can se
 - Name this new game object "Camera"
 - In the inspector panel, click "Attach script", and then search for "Camera" and click "Attach script"
 - Now set FOV to 20, and position to (0, 3, -20)
+
+![Create an empty object]({{site.url}}{{site.baseurl}}/content/images/create-empty.png)
+*Right click in the Hierarchy to create an empty object*
 
 A camera alone can't capture magic — lights make all the difference!
 
@@ -92,6 +98,9 @@ In this game, the player will fire bullets at falling rocks to split them into t
 - Set the collider size to (1, 1, 1).
 - Set the center to (0.5, 0.5, 0.5).
 
+![Ground]({{site.url}}{{site.baseurl}}/content/images/ground.png)
+*Ground object in action (it's completely still, yes we are aware)*
+
 And finally click the "World" button in the Scene view to save and exit the scene. Now you have a ground for your rocks to bounce.
 
 ## ...and throw some rocks
@@ -111,6 +120,9 @@ It's time to add some falling rocks to bring a bit of action! These rocks will d
 - In the Physics section in the Inspector component, set the Event receiver by dragging and dropping the "Stone" pack
 - Click the three dots next to the receiver and select "Stone"
 - And then finally lock the ZPosition in the Physics settings
+
+![Stone]({{site.url}}{{site.baseurl}}/content/images/stone.png)
+*Looks like we couldn't decide what to name it, rock or stone?*
 
 And just like you did before click the "World" button to exit the scene.
 
@@ -150,6 +162,9 @@ Everything in the scene should come from somewhere, right? So let's create the s
 ## Create scripts
 
 And right after the easiest step, we'll tackle the most complex one: making the whole game functional. For this, we will create code files called scripts. One script will control the movement of bullets that are fired by the player (Fire). Another one will control the player itself (Player). The falling rocks will move on their own thanks to the physics system but we will still need to split them when they are hit by the bullets and bounce them off the ground if they hit the ground without touching anything else (Stone). And finally we will use a script to put everything together like starting and ending the game (GameManager). Have a look at these scripts below:
+
+![Creating your first script]({{site.url}}{{site.baseurl}}/content/images/scripts.png)
+*Creating your first script*
 
 ### Fire
 ```

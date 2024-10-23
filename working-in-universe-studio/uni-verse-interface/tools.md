@@ -7,7 +7,7 @@ grand_parent: Working in Uni-verse Studio
 ---
 # Tools
 
-The Tools window provides quick access to essential project management and asset handling features. It contains four primary action buttons:
+The Tools component provides quick access to essential project management and asset handling features. It contains four primary action buttons:
 
 ### Export Wizard
 Launches a step-by-step wizard that guides you through the process of exporting your game.

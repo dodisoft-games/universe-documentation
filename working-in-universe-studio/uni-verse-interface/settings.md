@@ -7,10 +7,10 @@ grand_parent: Working in Uni-verse Studio
 ---
 # Settings
 
-The Settings component provides easy access to your game's configuration.
+The Settings component contains configuration options that affect your game's startup behavior and user interface.
 
-![Scene]({{site.url}}{{site.baseurl}}/content/images/settings.png)
+![Settings]({{site.url}}{{site.baseurl}}/content/images/settings.png)
 
-The Startup Scene sets the first scene that's loaded when your game is started.
+The Startup Scene allows you to specify which scene will load when your game launches.
 
 The Project UI allows you to choose a UI from a selection of UIs you can develop for your game. 

@@ -57,4 +57,10 @@ Other than these 5 main components, there are inactive components which you can 
 
 8. [The Terrain component](./terrain.html)
 
-9. [The UniUI component](./uniui.html) is where the magic unfolds. This is your space to craft captivating user interfaces, allowing your players to seamlessly interact with your game.
+9. [The UI component](./ui.html) is where the magic unfolds. This is your space to craft captivating user interfaces, allowing your players to seamlessly interact with your game.
+
+10. [The Generation component](./generation.html) gives you access to an AI image generation tool within Uni-verse Studio.
+
+11. [The Catalog component](./catalog.html)
+
+12. [The Particle component](./particle.html)

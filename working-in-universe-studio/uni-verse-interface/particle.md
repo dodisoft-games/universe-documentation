@@ -19,39 +19,23 @@ This component includes system-wide settings that influence all aspects of parti
 
 ![Main]({{site.url}}{{site.baseurl}}/content/images/particle-1-main.png)
 
-**Duration:** The duration for which the particle system remains active
-
-**Looping:** If enabled, the system will automatically restart after completing its duration, creating an endless loop of particle emissions
-
-**Prewarm:** If enabled, the system begins as if it had already run through one complete cycle, simulating a mid-loop state
-
-**Start Delay:** Delay in seconds before the first particles start appearing
-
-**Start Lifetime:** The initial lifetime for particles
-
-**Start Speed:** The initial speed of each particle
-
-**Start Size:** The initial size of each particle
-
-**Start Rotation:** The initial rotation angle of each particle
-
-**Start Color:** The initial color of each particle
-
-**Gravity Source:** Source of gravity for each particle
-
-**Gravity Modifier:** Multiplier for the global gravity
-
-**Simulation Space:** The setting that determines if particles move according to the parent object's coordinate system (following its movements), exist independently in world coordinates, or track the motion of a specified custom object
-
-**Simulation Speed:** Multiplier for the operation speed
-
-**Scaling Mode**: Determines how scaling is applied from the transform component. You can select between Hierarchy, Local, or Shape modes. Local mode only considers the Particle System's own transform scale, disregarding parent object scaling. Shape mode affects particle starting positions while leaving their dimensions unchanged.
-
-**Play on Awake**: If enabled, the particle system starts automatically
-
-**Emitter Velocity Mode**: The system offers different methods for computing particle velocity, which affects both Inherit Velocity and Emission features. It can derive velocity from either an attached Rigidbody component or by monitoring Transform position changes. When no Rigidbody is present, the system automatically defaults to using Transform-based calculations.
-
-**Max Particle**: The maximum number of particles allowed in the system. If the limit is reached, existing particles will be removed when new particles are created
+| **Duration:** | The duration for which the particle system remains active | 
+| **Looping:** | If enabled, the system will automatically restart after completing its duration, creating an endless loop of particle emissions | 
+| **Prewarm:** | If enabled, the system begins as if it had already run through one complete cycle, simulating a mid-loop state | 
+| **Start Delay:** | Delay in seconds before the first particles start appearing
+| **Start Lifetime:** | The initial lifetime for particles
+| **Start Speed:** | The initial speed of each particle
+| **Start Size:** | The initial size of each particle
+| **Start Rotation:** | The initial rotation angle of each particle
+| **Start Color:** | The initial color of each particle
+| **Gravity Source:** | Source of gravity for each particle
+| **Gravity Modifier:** | Multiplier for the global gravity
+| **Simulation Space:** | The setting that determines if particles move according to the parent object's coordinate system (following its movements), exist independently in world coordinates, or track the motion of a specified custom object | 
+| **Simulation Speed:** | Multiplier for the operation speed | 
+| **Scaling Mode**: | Determines how scaling is applied from the transform component. You can select between Hierarchy, Local, or Shape modes. Local mode only considers the Particle System's own transform scale, disregarding parent object scaling. Shape mode affects particle starting positions while leaving their dimensions unchanged. | 
+| **Play on Awake**: | If enabled, the particle system starts automatically | 
+| **Emitter Velocity Mode**: | The system offers different methods for computing particle velocity, which affects both Inherit Velocity and Emission features. It can derive velocity from either an attached Rigidbody component or by monitoring Transform position changes. When no Rigidbody is present, the system automatically defaults to using Transform-based calculations. | 
+| **Max Particle**: | The maximum number of particles allowed in the system. If the limit is reached, existing particles will be removed when new particles are created |
 
 ## Emission
 

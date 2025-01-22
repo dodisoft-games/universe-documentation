@@ -7,8 +7,6 @@ grand_parent: Working in Uni-verse Studio
 ---
 # Particle
 
-THIS IS WORK IN PROGRESS
-
 The Particle window streamlines the process of creating dynamic visual effects for your game. Starting with a template provides you with a foundation of pre-configured settings, allowing you to quickly iterate and customize your effects. These templates serve as practical starting points for common effects like fire, smoke, explosions, or magical abilities.
 
 Once you've created your particle system, a wide selection of properties awaits your fine-tuning. The duration setting controls how long your effect plays, while looping determines whether it repeats continuously or plays once and stops. Emission settings govern the rate and pattern of particle generation, fundamentally shaping how your effect builds and maintains itself.

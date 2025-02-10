@@ -11,6 +11,7 @@ parent: Scripting API
 The UIPanel class manages UI panels in the Universe Engine, handling their visibility, interaction, and animations.
 
 ## Properties
+
 | string name | The name of the panel. |
 | bool openOnLoad | Determines whether the panel opens when the game starts. |
 | int panelId | Stores the panel ID (default: -1). |

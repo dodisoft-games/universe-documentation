@@ -20,6 +20,7 @@ The UniObject class represents a fundamental object in the Universe Engine. It p
 | bool persistent | Indicates if the object persists across scenes (default: false). |
 
 ## Methods
+
 | string GetName() | Retrieves the name of the object. |
 | void SetName(string name) | Sets the name of the object. |
 | bool GetActivation() | Returns whether the object is active. |

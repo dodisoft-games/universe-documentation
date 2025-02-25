@@ -1,7 +1,7 @@
 ---
 layout: default
 title: UIPanel
-nav_order: 2
+nav_order: 3
 parent: Scripting API
 ---
 # UIPanel

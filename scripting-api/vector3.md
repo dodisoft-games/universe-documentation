@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vector3
-nav_order: 5
+nav_order: 6
 parent: Scripting API
 ---
 # Vector3

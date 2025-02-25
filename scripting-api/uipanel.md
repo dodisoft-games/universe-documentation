@@ -8,7 +8,7 @@ parent: Scripting API
 
 ## Overview
 
-The UIPanel class manages UI panels in the Universe Engine, handling their visibility, interaction, and animations.
+The UIPanel class manages UI panels, handling their visibility, interaction, and animations.
 
 ## Properties
 

@@ -8,7 +8,7 @@ parent: Scripting API
 
 ## Overview
 
-The UniAsset class represents an asset in Uni-verse Studio, such as a texture, model, or sound file. It provides methods to retrieve the asset's name and type.
+The UniAsset class represents an asset, such as a texture, model, or sound file. It provides methods to retrieve the asset's name and type.
 
 ## Methods
 

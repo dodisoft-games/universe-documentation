@@ -8,7 +8,7 @@ parent: Scripting API
 
 ## Overview
 
-The UniObject class represents a fundamental object in the Universe Engine. It provides various methods for interacting with objects in the scene, such as manipulating transformations, attaching scripts, and handling materials.
+The UniObject class represents a fundamental object. It provides various methods for interacting with objects in the scene, such as manipulating transformations, attaching scripts, and handling materials.
 
 ## Properties
 

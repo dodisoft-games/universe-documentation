@@ -13,6 +13,7 @@ The `Environment` class provides functionality for controlling global environmen
 `Universe.Helper`
 
 ## Properties
+
 | Property    | Type  | Description                                                                        |
 |-------------|-------|------------------------------------------------------------------------------------|
 | fog         | bool  | Enables or disables fog in the scene                                               |

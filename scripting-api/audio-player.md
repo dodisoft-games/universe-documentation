@@ -23,6 +23,7 @@ Defines how sound attenuation is calculated over distance.
 | Linear | Sound attenuates linearly with distance |
 
 ## Properties
+
 | Property  | Type             | Description                                                                    |
 |-----------|------------------|--------------------------------------------------------------------------------|
 | clip      | UniAsset         | The audio clip to play                                                         |

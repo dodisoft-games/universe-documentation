@@ -13,6 +13,7 @@ The `CustomAiModelTemplate` class provides a template for creating custom AI beh
 `Universe.Character`
 
 ## Properties
+
 | Property          | Type          | Description                                                  |
 |-------------------|---------------|--------------------------------------------------------------|
 | overrideDecision  | bool          | When true, custom decision logic is used (default: true)     |

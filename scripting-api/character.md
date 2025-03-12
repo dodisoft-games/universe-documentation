@@ -23,6 +23,7 @@ Defines the type of character controller to use.
 | Action | Character uses animation-driven movement (more suitable for cutscenes) |
 
 ## Properties
+
 | Property           | Type           | Description                                                             |
 |--------------------|----------------|-------------------------------------------------------------------------|
 | type               | CharacterType  | Type of character controller to use                                     |
@@ -49,6 +50,7 @@ Defines the type of character controller to use.
 | data               | CharacterData  | Character's stats and attributes                                        |
 
 ## Events
+
 | Event                | Parameters                                  | Description                                             |
 |----------------------|---------------------------------------------|---------------------------------------------------------|
 | MovementChangedEvent | (Movements movement)                        | Triggered when the character's movement type changes    |

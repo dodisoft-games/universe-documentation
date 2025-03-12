@@ -33,6 +33,7 @@ Defines the different data types supported by the type system.
 | Asset | Game asset references |
 
 ## Fields
+
 | Field          | Type | Description                            |
 |----------------|------|----------------------------------------|
 | intType        | int  | Internal type code for Integer (0)     |

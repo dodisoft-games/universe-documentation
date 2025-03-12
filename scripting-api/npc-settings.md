@@ -28,6 +28,7 @@ Defines the general personality type of the NPC.
 | Custom | Custom-defined mood through other parameters |
 
 ## Properties
+
 | Property       | Type      | Description                                                       |
 |----------------|-----------|-------------------------------------------------------------------|
 | mood           | Mood      | The general personality type (affects behavior)                   |

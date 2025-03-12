@@ -13,6 +13,7 @@ The `SphereCollider` class implements a spherical collision volume for physics i
 `Universe.Core`
 
 ## Properties
+
 | Property | Type     | Description                                                                                            |
 |----------|----------|--------------------------------------------------------------------------------------------------------|
 | trigger  | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |

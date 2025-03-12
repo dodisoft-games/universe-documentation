@@ -36,6 +36,7 @@ Defines external factors that can influence NPC behavior.
 | Hit | NPC has been hit/damaged |
 
 ## Properties
+
 | Property             | Type      | Description                                                     |
 |----------------------|-----------|-----------------------------------------------------------------|
 | character            | Character | Reference to the Character component for movement and animation |
@@ -56,6 +57,7 @@ Defines external factors that can influence NPC behavior.
 | customMotions        | uniscript | Script containing custom motion/animation functions             |
 
 ## Fields
+
 | Field    | Type        | Description                                    |
 |----------|-------------|------------------------------------------------|
 | isAlive  | bool        | Whether the NPC is currently alive             |

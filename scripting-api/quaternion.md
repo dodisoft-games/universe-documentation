@@ -13,6 +13,7 @@ The `Quaternion` class provides a simplified interface for working with rotation
 `Universe.Core`
 
 ## Properties
+
 | Property | Type  | Description                           |
 |----------|-------|---------------------------------------|
 | x        | float | Rotation around the X axis in degrees |

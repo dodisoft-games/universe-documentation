@@ -13,6 +13,7 @@ The `SmoothPath` class provides functionality for creating smooth interpolated p
 `Universe.Helper`
 
 ## Properties
+
 | Property  | Type  | Description                            |
 |-----------|-------|----------------------------------------|
 | positions | List  | List of position points along the path |

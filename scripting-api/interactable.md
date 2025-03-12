@@ -39,6 +39,7 @@ Defines how an object is carried when collected.
 | RightHand | Object is carried in the right hand |
 
 ## Properties
+
 | Property          | Type          | Description                                              |
 |-------------------|---------------|----------------------------------------------------------|
 | type              | InteractType  | The category of the interactive object                   |
@@ -61,6 +62,7 @@ Defines how an object is carried when collected.
 | dropSound         | UniAsset      | Sound played when dropping                               |
 
 ## Events
+
 | Event            | Parameters                                                                         | Description                                                      |
 |------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | OnOpenCloseEvent | (Interactable interactable, bool isOpen)                                           | Triggered when interaction starts or ends                        |

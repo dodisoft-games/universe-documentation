@@ -24,6 +24,7 @@ Defines the orientation axis of the capsule.
 | Z | The capsule's length runs along the Z axis |
 
 ## Properties
+
 | Property  | Type     | Description                                                                                            |
 |-----------|----------|--------------------------------------------------------------------------------------------------------|
 | trigger   | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |

@@ -23,6 +23,7 @@ Defines the type of background the camera should render.
 | Color | Uses a solid color for the background |
 
 ## Properties
+
 | Property    | Type       | Description                                                        |
 |-------------|------------|--------------------------------------------------------------------|
 | name        | string     | Name identifier for the camera (default: "Main Camera")            |

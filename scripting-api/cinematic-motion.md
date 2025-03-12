@@ -25,6 +25,7 @@ Defines how the object's rotation is determined during the movement.
 | DoNotModify | Object's rotation remains unchanged |
 
 ## Properties
+
 | Property             | Type              | Description                                                       |
 |----------------------|-------------------|-------------------------------------------------------------------|
 | target               | UniObject         | The object to move along the path                                 |
@@ -40,6 +41,7 @@ Defines how the object's rotation is determined during the movement.
 
 
 ## Events
+
 | Event               | Parameters                  | Description                                   |
 |---------------------|-----------------------------|-----------------------------------------------|
 | OnPointReachedEvent | (int index, bool completed) | Triggered when a point on the path is reached |

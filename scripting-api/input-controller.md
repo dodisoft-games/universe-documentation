@@ -13,11 +13,13 @@ The `InputController` class provides an interface for handling user input from v
 `Universe.Core`
 
 ## Properties
+
 | Property | Type | Description                                                       |
 |----------|------|-------------------------------------------------------------------|
 | active   | bool | Whether this input controller is currently active (default: true) |
 
 ## Events
+
 | Event         | Parameters                                                            | Description                                                        |
 |---------------|-----------------------------------------------------------------------|--------------------------------------------------------------------|
 | OnActionEvent | (string panel, string sender, string action, bool state, object data) | Triggered when an action input occurs (button press/release)       |

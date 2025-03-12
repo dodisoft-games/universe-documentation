@@ -25,6 +25,7 @@ Defines the type of light source.
 | Area | Light that emanates from a rectangular area |
 
 ## Properties
+
 | Property  | Type      | Description                                           |
 |-----------|-----------|-------------------------------------------------------|
 | type      | LightType | The type of light (default: Directional)              |

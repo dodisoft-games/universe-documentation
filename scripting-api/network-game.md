@@ -29,6 +29,7 @@ Defines the current state of the network connection.
 | ReadyToPlay | Connected and ready for gameplay |
 
 ## Properties
+
 | Property          | Type         | Description                                                |
 |-------------------|--------------|------------------------------------------------------------|
 | autoConnect       | bool         | Whether to automatically connect on start (default: true)  |
@@ -38,6 +39,7 @@ Defines the current state of the network connection.
 | playerName        | string       | The local player's name                                    |
 
 ## Events
+
 | Event                 | Parameters           | Description                                   |
 |-----------------------|----------------------|-----------------------------------------------|
 | OnStateChangedEvent   | (NetworkState state) | Triggered when the network state changes      |

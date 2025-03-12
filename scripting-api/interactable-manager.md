@@ -13,6 +13,7 @@ The `InteractableManager` class handles the discovery and management of interact
 `Universe.Tools`
 
 ## Properties
+
 | Property         | Type             | Description                                                        |
 |------------------|------------------|--------------------------------------------------------------------|
 | interactableTag  | string           | Tag used to identify interactable objects (default: "interact")    |
@@ -22,6 +23,7 @@ The `InteractableManager` class handles the discovery and management of interact
 | isActive         | bool             | Whether the interaction system is currently active (default: true) |
 
 ## Events
+
 | Event           | Parameters                               | Description                              |
 |-----------------|------------------------------------------|------------------------------------------|
 | OnInteractEvent | (string code, Interactable interactable) | Triggered when interaction state changes |

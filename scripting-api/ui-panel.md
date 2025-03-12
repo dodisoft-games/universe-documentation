@@ -24,6 +24,7 @@ Defines how position coordinates are interpreted for UI elements.
 | Anchored | Position relative to the panel's anchor points |
 
 ## Properties
+
 | Property   | Type   | Description                                              |
 |------------|--------|----------------------------------------------------------|
 | name       | string | Identifier for the UI panel                              |

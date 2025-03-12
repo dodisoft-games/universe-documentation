@@ -13,6 +13,7 @@ The `BoxCollider` class implements a box-shaped collision volume for physics int
 `Universe.Core`
 
 ## Properties
+
 | Property | Type     | Description                                                                                            |
 |----------|----------|--------------------------------------------------------------------------------------------------------|
 | trigger  | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |

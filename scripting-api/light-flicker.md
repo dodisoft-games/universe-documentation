@@ -13,6 +13,7 @@ The `LightFlicker` class adds dynamic flickering effects to light sources, simul
 `Universe.Tools`
 
 ## Properties
+
 | Property  | Type  | Description                                              |
 |-----------|-------|----------------------------------------------------------|
 | flactuate | float | Intensity of the fluctuation effect (default: 1)         |
@@ -20,6 +21,7 @@ The `LightFlicker` class adds dynamic flickering effects to light sources, simul
 | cutOff    | bool  | Whether the light should occasionally cut off completely |
 
 ## Fields
+
 | Field       | Type  | Description                                              |
 |-------------|-------|----------------------------------------------------------|
 | light       | Light | Reference to the Light component to affect               |

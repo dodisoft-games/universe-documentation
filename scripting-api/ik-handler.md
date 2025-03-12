@@ -26,6 +26,7 @@ Defines the character body parts that can be controlled with IK.
 | RightHand | The character's right hand |
 
 ## Properties
+
 | Property       | Type      | Description                                                             |
 |----------------|-----------|-------------------------------------------------------------------------|
 | character      | Character | Reference to the character to apply IK to                               |

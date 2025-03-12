@@ -13,6 +13,7 @@ The `NetworkLobby` class manages pre-game lobbies in multiplayer games, handling
 `Universe.Network`
 
 ## Properties
+
 | Property   | Type   | Description                                                             |
 |------------|--------|-------------------------------------------------------------------------|
 | id         | int    | Unique identifier for this lobby (default: 1)                           |
@@ -27,6 +28,7 @@ The `NetworkLobby` class manages pre-game lobbies in multiplayer games, handling
 | starting   | bool   | Whether the game is currently starting                                  |
 
 ## Events
+
 | Event              | Parameters                                        | Description                                 |
 |--------------------|---------------------------------------------------|---------------------------------------------|
 | OnPlayerEvent      | (NetworkLobby lobby, string name, bool connected) | Triggered when a player joins or leaves     |

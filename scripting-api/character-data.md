@@ -13,6 +13,7 @@ The `CharacterData` class manages a character's attributes and stats such as hea
 `Universe.Character`
 
 ## Properties
+
 | Property          | Type  | Description                                                  |
 |-------------------|-------|--------------------------------------------------------------|
 | maxHealth         | float | Maximum health points the character can have (default: 100)  |
@@ -23,6 +24,7 @@ The `CharacterData` class manages a character's attributes and stats such as hea
 | healthRegenPerSec | float | Rate of health regeneration per second (default: 0.1)        |
 
 ## Protected Fields
+
 | Field     | Type  | Description                 |
 |-----------|-------|-----------------------------|
 | health    | float | Current health points       |

@@ -13,6 +13,7 @@ The `SingletonManager` class implements a singleton pattern for game objects, en
 `Universe.Helper`
 
 ## Properties
+
 | Property    | Type   | Description                               |
 |-------------|--------|-------------------------------------------|
 | singletonId | string | Unique identifier for this singleton type |

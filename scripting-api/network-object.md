@@ -13,6 +13,7 @@ The `NetworkObject` class enables network synchronization for game objects in mu
 `Universe.Network`
 
 ## Properties
+
 | Property      | Type      | Description                                                                                      |
 |---------------|-----------|--------------------------------------------------------------------------------------------------|
 | targetObject  | UniObject | The object to synchronize (defaults to the object this script is attached to)                    |

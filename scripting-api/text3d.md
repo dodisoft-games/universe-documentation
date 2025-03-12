@@ -13,6 +13,7 @@ The `Text3D` class enables the creation of three-dimensional text rendered direc
 `Universe.Core`
 
 ## Properties
+
 | Property | Type   | Description                                      |
 |----------|--------|--------------------------------------------------|
 | text     | string | The text content to display (default: "3D Text") |

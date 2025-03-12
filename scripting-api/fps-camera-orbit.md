@@ -13,6 +13,7 @@ The `FPSCameraOrbit` class implements a first-person camera system with mouse-lo
 `Universe.Helper`
 
 ## Properties
+
 | Property     | Type      | Description                                                          |
 |--------------|-----------|----------------------------------------------------------------------|
 | character    | UniObject | The character object that the camera orbits around                   |

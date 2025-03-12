@@ -13,6 +13,7 @@ The `Scoreboard` class provides functionality for managing and storing high scor
 `Universe.Tools`
 
 ## Properties
+
 | Property      | Type   | Description                                                                        |
 |---------------|--------|------------------------------------------------------------------------------------|
 | boardId       | string | Unique identifier for the scoreboard (default: "HighScores")                       |
@@ -21,6 +22,7 @@ The `Scoreboard` class provides functionality for managing and storing high scor
 | scores        | List   | List of current scoreboard entries                                                 |
 
 ## Events
+
 | Event                | Parameters                            | Description                                           |
 |----------------------|---------------------------------------|-------------------------------------------------------|
 | OnAddScoreComplete   | (bool isOk, int index, string userId) | Triggered when a score addition operation completes   |

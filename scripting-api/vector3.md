@@ -13,6 +13,7 @@ The `Vector3` class provides a comprehensive object-oriented interface for worki
 `Universe.Core`
 
 ## Properties
+
 | Property | Type  | Description                   |
 |----------|-------|-------------------------------|
 | x        | float | The X component of the vector |

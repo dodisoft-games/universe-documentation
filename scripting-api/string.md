@@ -13,6 +13,7 @@ The `String` class provides a comprehensive set of string manipulation operation
 `Universe.Core`
 
 ## Properties
+
 | Property | Type   | Description                                   |
 |----------|--------|-----------------------------------------------|
 | text     | string | The underlying string value being manipulated |

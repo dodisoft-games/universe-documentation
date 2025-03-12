@@ -13,6 +13,7 @@ The `MeshCollider` class implements a collision volume that precisely matches th
 `Universe.Core`
 
 ## Properties
+
 | Property | Type     | Description                                                                                            |
 |----------|----------|--------------------------------------------------------------------------------------------------------|
 | trigger  | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |

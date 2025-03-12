@@ -13,6 +13,7 @@ The `CameraFollower` class provides functionality for a camera to follow a targe
 `Universe.Helper`
 
 ## Properties
+
 | Property  | Type      | Description                                                              |
 |-----------|-----------|--------------------------------------------------------------------------|
 | target    | UniObject | The object to follow                                                     |

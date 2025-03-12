@@ -10,6 +10,7 @@ parent: Scripting API
 The `UniObject` class is the core object representation in the Universe framework. It encapsulates game objects with properties for positioning, rotation, and scaling, and provides methods for manipulating and querying objects in the game world.
 
 ## Properties
+
 | Property   | Type     | Description                                                              |
 |------------|----------|--------------------------------------------------------------------------|
 | tag        | string   | Identifier tag for categorizing and finding objects                      |

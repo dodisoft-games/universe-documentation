@@ -13,6 +13,7 @@ The `CallMethodByName` class provides a flexible way to call methods on other sc
 `Universe.Helper`
 
 ## Properties
+
 | Property   | Type      | Description                                                                   |
 |------------|-----------|-------------------------------------------------------------------------------|
 | callScript | uniscript | Reference to the script containing the method to call                         |

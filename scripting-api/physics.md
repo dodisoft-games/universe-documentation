@@ -38,6 +38,7 @@ Defines the physical material properties of the object.
 | PerfectBouncing | Maximum bounce with near-perfect energy conservation |
 
 ## Properties
+
 | Property      | Type      | Description                                               |
 |---------------|-----------|-----------------------------------------------------------|
 | eventReceiver | uniscript | Script that receives collision events                     |

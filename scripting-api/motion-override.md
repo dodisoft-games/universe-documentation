@@ -13,6 +13,7 @@ The `MotionOverride` class allows customization of a character's animation set b
 `Universe.Character`
 
 ## Properties
+
 | Property   | Type     | Description                                                       |
 |------------|----------|-------------------------------------------------------------------|
 | idle       | UniAsset | Animation played when the character is standing still             |

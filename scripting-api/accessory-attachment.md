@@ -14,7 +14,7 @@ The `AccessoryAttachment` class is used to attach accessories to character bones
 
 ## Properties
 | Property | Type | Description |
-|----------|------|-------------|
+| -------- | ---- | ----------- |
 | character | Character | Reference to the character the accessory will be attached to |
 | bone | CharacterBone | The bone to attach the accessory to |
 | autoAttach | bool | When true, the accessory will automatically attach during start |

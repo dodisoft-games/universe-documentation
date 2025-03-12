@@ -13,13 +13,15 @@ The `AccessoryAttachment` class is used to attach accessories to character bones
 `Universe.Character`
 
 ## Properties
-| Property | Type | Description |
-| character | Character | Reference to the character the accessory will be attached to |
-| bone | CharacterBone | The bone to attach the accessory to |
-| autoAttach | bool | When true, the accessory will automatically attach during start |
-| oneFrameLate | bool | When true, the accessory will attach after a slight delay (0.001 seconds) |
-| position | vector3 | Local position offset for the attachment |
-| rotation | vector3 | Local rotation offset for the attachment |
+
+| Property     | Type          | Description                                                               |
+|--------------|---------------|---------------------------------------------------------------------------|
+| character    | Character     | Reference to the character the accessory will be attached to              |
+| bone         | CharacterBone | The bone to attach the accessory to                                       |
+| autoAttach   | bool          | When true, the accessory will automatically attach during start           |
+| oneFrameLate | bool          | When true, the accessory will attach after a slight delay (0.001 seconds) |
+| position     | vector3       | Local position offset for the attachment                                  |
+| rotation     | vector3       | Local rotation offset for the attachment                                  |
 
 ## Methods
 

@@ -13,23 +13,23 @@ The `CharacterData` class manages a character's attributes and stats such as hea
 `Universe.Character`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| maxHealth | float | Maximum health points the character can have (default: 100) |
-| maxStamina | float | Maximum stamina points the character can have (default: 100) |
-| maxStrength | float | Maximum strength attribute (default: 100) |
-| maxPower | float | Maximum power attribute (default: 100) |
-| maxAmmo | float | Maximum ammunition the character can carry (default: 100) |
-| healthRegenPerSec | float | Rate of health regeneration per second (default: 0.1) |
+| Property          | Type  | Description                                                  |
+|-------------------|-------|--------------------------------------------------------------|
+| maxHealth         | float | Maximum health points the character can have (default: 100)  |
+| maxStamina        | float | Maximum stamina points the character can have (default: 100) |
+| maxStrength       | float | Maximum strength attribute (default: 100)                    |
+| maxPower          | float | Maximum power attribute (default: 100)                       |
+| maxAmmo           | float | Maximum ammunition the character can carry (default: 100)    |
+| healthRegenPerSec | float | Rate of health regeneration per second (default: 0.1)        |
 
 ## Protected Fields
-| Field | Type | Description |
-|-------|------|-------------|
-| health | float | Current health points |
-| stamina | float | Current stamina points |
-| strength | float | Current strength value |
-| power | float | Current power value |
-| inventory | List | Character's inventory items |
+| Field     | Type  | Description                 |
+|-----------|-------|-----------------------------|
+| health    | float | Current health points       |
+| stamina   | float | Current stamina points      |
+| strength  | float | Current strength value      |
+| power     | float | Current power value         |
+| inventory | List  | Character's inventory items |
 
 ## Methods
 

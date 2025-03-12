@@ -36,31 +36,31 @@ Defines external factors that can influence NPC behavior.
 | Hit | NPC has been hit/damaged |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| character | Character | Reference to the Character component for movement and animation |
-| npcType | NPCType | The disposition of the NPC (Enemy, Companion, or UnBiased) |
-| leftHandAccessories | uniscript | Script controlling left-hand accessories/weapons |
-| rightHandAccessories | uniscript | Script controlling right-hand accessories/weapons |
-| colliderAttachment | UniObject | Collider used for interaction when the NPC is defeated |
-| targetsTag | string | Tag used to automatically identify potential targets |
-| active | bool | Whether the NPC's AI is currently active (default: true) |
-| automaticTargeting | bool | Whether to automatically find targets with the specified tag |
-| useNavigation | bool | Whether to use navigation system for pathfinding |
-| overrideDimensions | bool | Whether to override the default character dimensions |
-| radius | float | Collision radius if dimensions are overridden (default: 0.5) |
-| height | float | Height if dimensions are overridden (default: 2) |
-| stepHeight | float | Maximum step height if dimensions are overridden (default: 0.5) |
-| slope | float | Maximum slope angle if dimensions are overridden (default: 45) |
-| settingsAsset | UniAsset | Asset containing NPC behavior settings |
-| customMotions | uniscript | Script containing custom motion/animation functions |
+| Property             | Type      | Description                                                     |
+|----------------------|-----------|-----------------------------------------------------------------|
+| character            | Character | Reference to the Character component for movement and animation |
+| npcType              | NPCType   | The disposition of the NPC (Enemy, Companion, or UnBiased)      |
+| leftHandAccessories  | uniscript | Script controlling left-hand accessories/weapons                |
+| rightHandAccessories | uniscript | Script controlling right-hand accessories/weapons               |
+| colliderAttachment   | UniObject | Collider used for interaction when the NPC is defeated          |
+| targetsTag           | string    | Tag used to automatically identify potential targets            |
+| active               | bool      | Whether the NPC's AI is currently active (default: true)        |
+| automaticTargeting   | bool      | Whether to automatically find targets with the specified tag    |
+| useNavigation        | bool      | Whether to use navigation system for pathfinding                |
+| overrideDimensions   | bool      | Whether to override the default character dimensions            |
+| radius               | float     | Collision radius if dimensions are overridden (default: 0.5)    |
+| height               | float     | Height if dimensions are overridden (default: 2)                |
+| stepHeight           | float     | Maximum step height if dimensions are overridden (default: 0.5) |
+| slope                | float     | Maximum slope angle if dimensions are overridden (default: 45)  |
+| settingsAsset        | UniAsset  | Asset containing NPC behavior settings                          |
+| customMotions        | uniscript | Script containing custom motion/animation functions             |
 
 ## Fields
-| Field | Type | Description |
-|-------|------|-------------|
-| isAlive | bool | Whether the NPC is currently alive |
-| isReady | bool | Whether the NPC is fully initialized and ready |
-| settings | NpcSettings | Reference to the NPC's behavior settings |
+| Field    | Type        | Description                                    |
+|----------|-------------|------------------------------------------------|
+| isAlive  | bool        | Whether the NPC is currently alive             |
+| isReady  | bool        | Whether the NPC is fully initialized and ready |
+| settings | NpcSettings | Reference to the NPC's behavior settings       |
 
 ## Methods
 

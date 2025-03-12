@@ -13,12 +13,12 @@ The `SphereCollider` class implements a spherical collision volume for physics i
 `Universe.Core`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| trigger | bool | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
-| center | vector3 | The local center position offset of the sphere collider |
-| radius | float | The radius of the sphere (default: 0.5) |
-| attitude | Attitude | The physical material properties of the collider (affects bounce, friction, etc.) |
+| Property | Type     | Description                                                                                            |
+|----------|----------|--------------------------------------------------------------------------------------------------------|
+| trigger  | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
+| center   | vector3  | The local center position offset of the sphere collider                                                |
+| radius   | float    | The radius of the sphere (default: 0.5)                                                                |
+| attitude | Attitude | The physical material properties of the collider (affects bounce, friction, etc.)                      |
 
 ## Methods
 

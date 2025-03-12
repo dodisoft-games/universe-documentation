@@ -13,14 +13,14 @@ The `SmoothPath` class provides functionality for creating smooth interpolated p
 `Universe.Helper`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| positions | List | List of position points along the path |
-| rotations | List | List of rotation values at each point |
-| times | List | List of time values for each point |
-| duration | float | Total duration of the path traversal |
-| index | int | Current index in the path |
-| count | int | Total number of points in the path |
+| Property  | Type  | Description                            |
+|-----------|-------|----------------------------------------|
+| positions | List  | List of position points along the path |
+| rotations | List  | List of rotation values at each point  |
+| times     | List  | List of time values for each point     |
+| duration  | float | Total duration of the path traversal   |
+| index     | int   | Current index in the path              |
+| count     | int   | Total number of points in the path     |
 
 ## Methods
 

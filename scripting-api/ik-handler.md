@@ -26,15 +26,15 @@ Defines the character body parts that can be controlled with IK.
 | RightHand | The character's right hand |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| character | Character | Reference to the character to apply IK to |
-| node | IKNode | The IK node/body part to control |
-| positionWeigth | float | Strength of the position constraint (0-1, default: 1) |
-| rotationWeight | float | Strength of the rotation constraint (0-1, default: 1) |
-| target | UniObject | The target object for the IK constraint |
-| setOnStart | bool | Whether to set the IK constraint automatically on start (default: true) |
-| delay | float | Time in seconds for smooth transitions (default: 0.5) |
+| Property       | Type      | Description                                                             |
+|----------------|-----------|-------------------------------------------------------------------------|
+| character      | Character | Reference to the character to apply IK to                               |
+| node           | IKNode    | The IK node/body part to control                                        |
+| positionWeigth | float     | Strength of the position constraint (0-1, default: 1)                   |
+| rotationWeight | float     | Strength of the rotation constraint (0-1, default: 1)                   |
+| target         | UniObject | The target object for the IK constraint                                 |
+| setOnStart     | bool      | Whether to set the IK constraint automatically on start (default: true) |
+| delay          | float     | Time in seconds for smooth transitions (default: 0.5)                   |
 
 ## Methods
 

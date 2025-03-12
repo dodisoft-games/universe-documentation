@@ -39,32 +39,32 @@ Defines how an object is carried when collected.
 | RightHand | Object is carried in the right hand |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| type | InteractType | The category of the interactive object |
-| model | UniObject | Visual model of the interactable |
-| uiPanel | UIPanel | UI panel to show when interacting |
-| amount | int | Quantity of the item (default: 1) |
-| id | string | Unique identifier for the item |
-| infoText | string | Description text to display |
-| lockPlayer | bool | Whether interaction locks player movement |
-| autoUse | bool | Whether item is used automatically upon interaction |
-| collectable | bool | Whether item can be picked up |
-| collectAction | string | Action name that triggers collection (default: "Action") |
-| caryOn | CarryOn | How the object is carried when collected |
-| networkObject | NetworkObject | Network synchronization reference |
-| 3rdViewCamera | UniObject | Camera used for examining the object |
-| characterPosition | UniObject | Position for character during interaction |
-| extraData | string | Additional custom data |
-| infoSound | UniAsset | Sound played when examining |
-| pickSound | UniAsset | Sound played when picking up |
-| dropSound | UniAsset | Sound played when dropping |
+| Property          | Type          | Description                                              |
+|-------------------|---------------|----------------------------------------------------------|
+| type              | InteractType  | The category of the interactive object                   |
+| model             | UniObject     | Visual model of the interactable                         |
+| uiPanel           | UIPanel       | UI panel to show when interacting                        |
+| amount            | int           | Quantity of the item (default: 1)                        |
+| id                | string        | Unique identifier for the item                           |
+| infoText          | string        | Description text to display                              |
+| lockPlayer        | bool          | Whether interaction locks player movement                |
+| autoUse           | bool          | Whether item is used automatically upon interaction      |
+| collectable       | bool          | Whether item can be picked up                            |
+| collectAction     | string        | Action name that triggers collection (default: "Action") |
+| caryOn            | CarryOn       | How the object is carried when collected                 |
+| networkObject     | NetworkObject | Network synchronization reference                        |
+| 3rdViewCamera     | UniObject     | Camera used for examining the object                     |
+| characterPosition | UniObject     | Position for character during interaction                |
+| extraData         | string        | Additional custom data                                   |
+| infoSound         | UniAsset      | Sound played when examining                              |
+| pickSound         | UniAsset      | Sound played when picking up                             |
+| dropSound         | UniAsset      | Sound played when dropping                               |
 
 ## Events
-| Event | Parameters | Description |
-|-------|------------|-------------|
-| OnOpenCloseEvent | (Interactable interactable, bool isOpen) | Triggered when interaction starts or ends |
-| OnCommandEvent | (Interactable interactable, string sender, string action, bool state, object data) | Triggered when the player performs an action on the interactable |
+| Event            | Parameters                                                                         | Description                                                      |
+|------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| OnOpenCloseEvent | (Interactable interactable, bool isOpen)                                           | Triggered when interaction starts or ends                        |
+| OnCommandEvent   | (Interactable interactable, string sender, string action, bool state, object data) | Triggered when the player performs an action on the interactable |
 
 ## Methods
 

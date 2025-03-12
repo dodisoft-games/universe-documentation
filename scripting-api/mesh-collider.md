@@ -13,11 +13,11 @@ The `MeshCollider` class implements a collision volume that precisely matches th
 `Universe.Core`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| trigger | bool | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
-| convex | bool | When true, the mesh is treated as a convex shape, allowing it to be used as a dynamic collider |
-| attitude | Attitude | The physical material properties of the collider (affects bounce, friction, etc.) |
+| Property | Type     | Description                                                                                            |
+|----------|----------|--------------------------------------------------------------------------------------------------------|
+| trigger  | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
+| convex   | bool     | When true, the mesh is treated as a convex shape, allowing it to be used as a dynamic collider         |
+| attitude | Attitude | The physical material properties of the collider (affects bounce, friction, etc.)                      |
 
 ## Methods
 

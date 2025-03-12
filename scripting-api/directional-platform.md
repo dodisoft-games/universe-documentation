@@ -13,12 +13,12 @@ The `DirectionalPlatform` class creates oscillating platforms that move and rota
 `Universe.Tools`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| moveDelta | vector3 | Maximum movement distance in each axis |
-| rotateDelta | vector3 | Maximum rotation angles in each axis |
-| speed | float | Speed of the oscillation (default: 1) |
-| span | float | Phase offset for the oscillation (default: 0) |
+| Property    | Type    | Description                                   |
+|-------------|---------|-----------------------------------------------|
+| moveDelta   | vector3 | Maximum movement distance in each axis        |
+| rotateDelta | vector3 | Maximum rotation angles in each axis          |
+| speed       | float   | Speed of the oscillation (default: 1)         |
+| span        | float   | Phase offset for the oscillation (default: 0) |
 
 ## Methods
 

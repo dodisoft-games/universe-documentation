@@ -13,12 +13,13 @@ The `CallMethodByName` class provides a flexible way to call methods on other sc
 `Universe.Helper`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| callScript | uniscript | Reference to the script containing the method to call |
-| methodName | string | Name of the method to call |
-| parameter | string | String parameter to pass to the method (can be null) |
-| delay | float | Time in seconds to wait before calling the method (0 for immediate execution) |
+| Property   | Type      | Description                                                                   |
+|------------|-----------|-------------------------------------------------------------------------------|
+| callScript | uniscript | Reference to the script containing the method to call                         |
+| methodName | string    | Name of the method to call                                                    |
+| parameter  | string    | String parameter to pass to the method (can be null)                          |
+| delay      | float     | Time in seconds to wait before calling the method (0 for immediate execution) |
+
 
 ## Methods
 

@@ -25,23 +25,25 @@ Defines how the object's rotation is determined during the movement.
 | DoNotModify | Object's rotation remains unchanged |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| target | UniObject | The object to move along the path |
-| lookMode | CinematicLookMode | How the object's rotation is controlled |
-| followObject | UniObject | Object to look at when using FollowAnObject mode |
-| duration | float | Total time to complete the path in seconds (default: 5) |
-| ease | float | Smoothing factor for movement and rotation (default: 1) |
-| startDelay | float | Delay before starting the motion in seconds |
-| stopDelay | float | Delay after completing the path before transitioning |
-| activateOnCompletion | UniObject | Object to activate when the motion completes |
-| deactivateTarget | bool | Whether to deactivate the target object when the motion completes |
-| transitionObject | UniObject | Object to activate shortly before completion |
+| Property             | Type              | Description                                                       |
+|----------------------|-------------------|-------------------------------------------------------------------|
+| target               | UniObject         | The object to move along the path                                 |
+| lookMode             | CinematicLookMode | How the object's rotation is controlled                           |
+| followObject         | UniObject         | Object to look at when using FollowAnObject mode                  |
+| duration             | float             | Total time to complete the path in seconds (default: 5)           |
+| ease                 | float             | Smoothing factor for movement and rotation (default: 1)           |
+| startDelay           | float             | Delay before starting the motion in seconds                       |
+| stopDelay            | float             | Delay after completing the path before transitioning              |
+| activateOnCompletion | UniObject         | Object to activate when the motion completes                      |
+| deactivateTarget     | bool              | Whether to deactivate the target object when the motion completes |
+| transitionObject     | UniObject         | Object to activate shortly before completion                      |
+
 
 ## Events
-| Event | Parameters | Description |
-|-------|------------|-------------|
+| Event               | Parameters                  | Description                                   |
+|---------------------|-----------------------------|-----------------------------------------------|
 | OnPointReachedEvent | (int index, bool completed) | Triggered when a point on the path is reached |
+
 
 ## Methods
 

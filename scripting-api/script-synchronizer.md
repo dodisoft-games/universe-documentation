@@ -13,10 +13,10 @@ The `ScriptSynchronizer` class provides a simple way to synchronize script prope
 `Universe.Network`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
+| Property      | Type          | Description                                                      |
+|---------------|---------------|------------------------------------------------------------------|
 | networkObject | NetworkObject | Reference to the NetworkObject component that handles networking |
-| script | uniscript | Reference to the script that needs to be synchronized |
+| script        | uniscript     | Reference to the script that needs to be synchronized            |
 
 ## Methods
 

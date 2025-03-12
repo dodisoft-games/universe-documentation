@@ -13,9 +13,9 @@ The `SetTexture` class provides a simple way to assign a texture to an object's 
 `Universe.Helper`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| texture | UniAsset | The texture asset to apply to the object |
+| Property | Type     | Description                              |
+|----------|----------|------------------------------------------|
+| texture  | UniAsset | The texture asset to apply to the object |
 
 ## Methods
 

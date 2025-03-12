@@ -13,26 +13,26 @@ The `NetworkLobby` class manages pre-game lobbies in multiplayer games, handling
 `Universe.Network`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| id | int | Unique identifier for this lobby (default: 1) |
-| mode | string | Game mode identifier (default: "Default") |
-| minPlayers | int | Minimum number of players required to start a game (default: 2) |
-| maxPlayers | int | Maximum number of players allowed in the lobby (default: 4) |
-| waitDelay | int | Seconds to wait after minimum player count is reached (default: 10) |
-| autoStart | bool | Whether to automatically start the game after countdown (default: true) |
-| playerTag | string | Tag used to identify player objects (default: "player") |
-| players | list | List of players currently in the lobby |
-| countDown | int | Current countdown timer value |
-| starting | bool | Whether the game is currently starting |
+| Property   | Type   | Description                                                             |
+|------------|--------|-------------------------------------------------------------------------|
+| id         | int    | Unique identifier for this lobby (default: 1)                           |
+| mode       | string | Game mode identifier (default: "Default")                               |
+| minPlayers | int    | Minimum number of players required to start a game (default: 2)         |
+| maxPlayers | int    | Maximum number of players allowed in the lobby (default: 4)             |
+| waitDelay  | int    | Seconds to wait after minimum player count is reached (default: 10)     |
+| autoStart  | bool   | Whether to automatically start the game after countdown (default: true) |
+| playerTag  | string | Tag used to identify player objects (default: "player")                 |
+| players    | list   | List of players currently in the lobby                                  |
+| countDown  | int    | Current countdown timer value                                           |
+| starting   | bool   | Whether the game is currently starting                                  |
 
 ## Events
-| Event | Parameters | Description |
-|-------|------------|-------------|
-| OnPlayerEvent | (NetworkLobby lobby, string name, bool connected) | Triggered when a player joins or leaves |
-| OnCounterTickEvent | (NetworkLobby lobby, int counter) | Triggered every second during the countdown |
-| OnStartingEvent | (NetworkLobby lobby, string roomId) | Triggered when the game is about to start |
-| OnPlayerListEvent | (NetworkLobby lobby) | Triggered when the player list is updated |
+| Event              | Parameters                                        | Description                                 |
+|--------------------|---------------------------------------------------|---------------------------------------------|
+| OnPlayerEvent      | (NetworkLobby lobby, string name, bool connected) | Triggered when a player joins or leaves     |
+| OnCounterTickEvent | (NetworkLobby lobby, int counter)                 | Triggered every second during the countdown |
+| OnStartingEvent    | (NetworkLobby lobby, string roomId)               | Triggered when the game is about to start   |
+| OnPlayerListEvent  | (NetworkLobby lobby)                              | Triggered when the player list is updated   |
 
 ## Methods
 

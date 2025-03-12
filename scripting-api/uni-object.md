@@ -10,14 +10,14 @@ parent: Scripting API
 The `UniObject` class is the core object representation in the Universe framework. It encapsulates game objects with properties for positioning, rotation, and scaling, and provides methods for manipulating and querying objects in the game world.
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| tag | string | Identifier tag for categorizing and finding objects |
-| asset | UniAsset | Reference to the asset used to create this object |
-| position | vector3 | Local position of the object |
-| rotation | vector3 | Local rotation of the object in Euler angles |
-| scale | vector3 | Local scale of the object |
-| persistent | bool | Whether the object should persist between scene changes (default: false) |
+| Property   | Type     | Description                                                              |
+|------------|----------|--------------------------------------------------------------------------|
+| tag        | string   | Identifier tag for categorizing and finding objects                      |
+| asset      | UniAsset | Reference to the asset used to create this object                        |
+| position   | vector3  | Local position of the object                                             |
+| rotation   | vector3  | Local rotation of the object in Euler angles                             |
+| scale      | vector3  | Local scale of the object                                                |
+| persistent | bool     | Whether the object should persist between scene changes (default: false) |
 
 ## Methods
 

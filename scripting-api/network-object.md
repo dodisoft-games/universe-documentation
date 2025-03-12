@@ -13,17 +13,17 @@ The `NetworkObject` class enables network synchronization for game objects in mu
 `Universe.Network`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| targetObject | UniObject | The object to synchronize (defaults to the object this script is attached to) |
-| isSceneObject | bool | Whether this is a persistent scene object rather than a dynamically spawned one (default: false) |
-| syncPosition | bool | Whether to synchronize position (default: true) |
-| syncRotation | bool | Whether to synchronize rotation (default: true) |
-| syncScale | bool | Whether to synchronize scale (default: true) |
-| syncAnimation | bool | Whether to synchronize animation state (default: true) |
-| syncPhysics | bool | Whether to synchronize physics properties like velocity (default: false) |
-| syncScripts | bool | Whether to synchronize script properties (default: true) |
-| viewID | int | Unique identifier for this network object (0 for auto-assignment) (default: 0) |
+| Property      | Type      | Description                                                                                      |
+|---------------|-----------|--------------------------------------------------------------------------------------------------|
+| targetObject  | UniObject | The object to synchronize (defaults to the object this script is attached to)                    |
+| isSceneObject | bool      | Whether this is a persistent scene object rather than a dynamically spawned one (default: false) |
+| syncPosition  | bool      | Whether to synchronize position (default: true)                                                  |
+| syncRotation  | bool      | Whether to synchronize rotation (default: true)                                                  |
+| syncScale     | bool      | Whether to synchronize scale (default: true)                                                     |
+| syncAnimation | bool      | Whether to synchronize animation state (default: true)                                           |
+| syncPhysics   | bool      | Whether to synchronize physics properties like velocity (default: false)                         |
+| syncScripts   | bool      | Whether to synchronize script properties (default: true)                                         |
+| viewID        | int       | Unique identifier for this network object (0 for auto-assignment) (default: 0)                   |
 
 ## Methods
 

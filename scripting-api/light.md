@@ -25,14 +25,14 @@ Defines the type of light source.
 | Area | Light that emanates from a rectangular area |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| type | LightType | The type of light (default: Directional) |
-| intensity | float | Brightness of the light (default: 1) |
-| range | float | Maximum distance the light reaches (default: 10) |
-| angle | float | Angle of the light cone for spot lights (default: 90) |
-| shadows | bool | Whether the light casts shadows (default: true) |
-| color | rgba | Color of the light (default: white) |
+| Property  | Type      | Description                                           |
+|-----------|-----------|-------------------------------------------------------|
+| type      | LightType | The type of light (default: Directional)              |
+| intensity | float     | Brightness of the light (default: 1)                  |
+| range     | float     | Maximum distance the light reaches (default: 10)      |
+| angle     | float     | Angle of the light cone for spot lights (default: 90) |
+| shadows   | bool      | Whether the light casts shadows (default: true)       |
+| color     | rgba      | Color of the light (default: white)                   |
 
 ## Methods
 

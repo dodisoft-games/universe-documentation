@@ -24,14 +24,15 @@ Defines the orientation axis of the capsule.
 | Z | The capsule's length runs along the Z axis |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| trigger | bool | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
-| direction | Axis | The axis along which the capsule is oriented (default: Y) |
-| center | vector3 | The local center position offset of the capsule collider |
-| radius | float | The radius of the capsule (default: 0.5) |
-| height | float | The total height of the capsule including the two hemisphere ends (default: 2) |
-| attitude | Attitude | The physical material properties of the collider (affects bounce, friction, etc.) |
+| Property  | Type     | Description                                                                                            |
+|-----------|----------|--------------------------------------------------------------------------------------------------------|
+| trigger   | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
+| direction | Axis     | The axis along which the capsule is oriented (default: Y)                                              |
+| center    | vector3  | The local center position offset of the capsule collider                                               |
+| radius    | float    | The radius of the capsule (default: 0.5)                                                               |
+| height    | float    | The total height of the capsule including the two hemisphere ends (default: 2)                         |
+| attitude  | Attitude | The physical material properties of the collider (affects bounce, friction, etc.)                      |
+
 
 ## Methods
 

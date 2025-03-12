@@ -13,12 +13,13 @@ The `BoxCollider` class implements a box-shaped collision volume for physics int
 `Universe.Core`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| trigger | bool | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
-| center | vector3 | The local center position offset of the box collider |
-| size | vector3 | The dimensions of the box in local space (default: [1, 1, 1]) |
-| attitude | Attitude | The physical material properties of the collider (affects bounce, friction, etc.) |
+| Property | Type     | Description                                                                                            |
+|----------|----------|--------------------------------------------------------------------------------------------------------|
+| trigger  | bool     | When true, the collider acts as a trigger that detects overlaps but doesn't create physical collisions |
+| center   | vector3  | The local center position offset of the box collider                                                   |
+| size     | vector3  | The dimensions of the box in local space (default: [1, 1, 1])                                          |
+| attitude | Attitude | The physical material properties of the collider (affects bounce, friction, etc.)                      |
+
 
 ## Methods
 

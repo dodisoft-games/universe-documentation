@@ -13,8 +13,8 @@ The `InventoryManager` class provides a simple inventory system for tracking and
 `Universe.Tools`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
+| Property  | Type       | Description                                      |
+|-----------|------------|--------------------------------------------------|
 | inventory | Dictionary | Dictionary storing item IDs and their quantities |
 
 ## Methods

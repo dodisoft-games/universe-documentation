@@ -23,36 +23,37 @@ Defines the type of character controller to use.
 | Action | Character uses animation-driven movement (more suitable for cutscenes) |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| type | CharacterType | Type of character controller to use |
-| radius | float | Collision radius for the character (default: 0.5) |
-| height | float | Character's height (default: 3) |
-| stepHeight | float | Maximum height of steps the character can climb (default: 0.5) |
-| slope | float | Maximum slope angle in degrees the character can climb (default: 45) |
-| speed | float | Base movement speed multiplier (default: 1) |
-| movementSpeed | float | Movement speed multiplier (default: 1) |
-| rotationSpeed | float | Rotation speed multiplier (default: 1) |
-| acceleration | float | Movement acceleration (default: 5) |
-| cameraBaseMovement | bool | When true, movement direction is relative to camera (default: true) |
-| polarMovement | bool | When true, uses polar coordinates for movement (default: true) |
-| canControl | bool | When true, character can be controlled by input (default: true) |
-| canWalk | bool | When true, character can walk (default: true) |
-| canRun | bool | When true, character can run (default: true) |
-| canJump | bool | When true, character can jump (default: true) |
-| canClimb | bool | When true, character can climb (default: true) |
-| canSwim | bool | When true, character can swim (default: true) |
-| canFly | bool | When true, character can fly (default: true) |
-| alwaysRun | bool | When true, character always runs instead of walks (default: false) |
-| autoJump | bool | When true, character automatically jumps over obstacles (default: true) |
-| overrideMotions | MotionOverride | Custom animations to override default motions |
-| data | CharacterData | Character's stats and attributes |
+| Property           | Type           | Description                                                             |
+|--------------------|----------------|-------------------------------------------------------------------------|
+| type               | CharacterType  | Type of character controller to use                                     |
+| radius             | float          | Collision radius for the character (default: 0.5)                       |
+| height             | float          | Character's height (default: 3)                                         |
+| stepHeight         | float          | Maximum height of steps the character can climb (default: 0.5)          |
+| slope              | float          | Maximum slope angle in degrees the character can climb (default: 45)    |
+| speed              | float          | Base movement speed multiplier (default: 1)                             |
+| movementSpeed      | float          | Movement speed multiplier (default: 1)                                  |
+| rotationSpeed      | float          | Rotation speed multiplier (default: 1)                                  |
+| acceleration       | float          | Movement acceleration (default: 5)                                      |
+| cameraBaseMovement | bool           | When true, movement direction is relative to camera (default: true)     |
+| polarMovement      | bool           | When true, uses polar coordinates for movement (default: true)          |
+| canControl         | bool           | When true, character can be controlled by input (default: true)         |
+| canWalk            | bool           | When true, character can walk (default: true)                           |
+| canRun             | bool           | When true, character can run (default: true)                            |
+| canJump            | bool           | When true, character can jump (default: true)                           |
+| canClimb           | bool           | When true, character can climb (default: true)                          |
+| canSwim            | bool           | When true, character can swim (default: true)                           |
+| canFly             | bool           | When true, character can fly (default: true)                            |
+| alwaysRun          | bool           | When true, character always runs instead of walks (default: false)      |
+| autoJump           | bool           | When true, character automatically jumps over obstacles (default: true) |
+| overrideMotions    | MotionOverride | Custom animations to override default motions                           |
+| data               | CharacterData  | Character's stats and attributes                                        |
 
 ## Events
-| Event | Parameters | Description |
-|-------|------------|-------------|
-| MovementChangedEvent | (Movements movement) | Triggered when the character's movement type changes |
-| ActionChangedEvent | (string action, float duration, bool state) | Triggered when the character performs or ends an action |
+| Event                | Parameters                                  | Description                                             |
+|----------------------|---------------------------------------------|---------------------------------------------------------|
+| MovementChangedEvent | (Movements movement)                        | Triggered when the character's movement type changes    |
+| ActionChangedEvent   | (string action, float duration, bool state) | Triggered when the character performs or ends an action |
+
 
 ## Methods
 

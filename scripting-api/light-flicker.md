@@ -13,23 +13,23 @@ The `LightFlicker` class adds dynamic flickering effects to light sources, simul
 `Universe.Tools`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| flactuate | float | Intensity of the fluctuation effect (default: 1) |
-| speed | float | Speed of the fluctuation transitions (default: 10) |
-| cutOff | bool | Whether the light should occasionally cut off completely |
+| Property  | Type  | Description                                              |
+|-----------|-------|----------------------------------------------------------|
+| flactuate | float | Intensity of the fluctuation effect (default: 1)         |
+| speed     | float | Speed of the fluctuation transitions (default: 10)       |
+| cutOff    | bool  | Whether the light should occasionally cut off completely |
 
 ## Fields
-| Field | Type | Description |
-|-------|------|-------------|
-| light | Light | Reference to the Light component to affect |
-| intensity | float | Base intensity of the light |
-| toIntensity | float | Target intensity during transitions |
-| range | float | Base range of the light |
-| toRange | float | Target range during transitions |
-| changeTime | float | Time for the next fluctuation change |
-| nextCutOff | float | Time for the next cutoff event |
-| emit | bool | Whether the light is currently emitting (during cutoffs) |
+| Field       | Type  | Description                                              |
+|-------------|-------|----------------------------------------------------------|
+| light       | Light | Reference to the Light component to affect               |
+| intensity   | float | Base intensity of the light                              |
+| toIntensity | float | Target intensity during transitions                      |
+| range       | float | Base range of the light                                  |
+| toRange     | float | Target range during transitions                          |
+| changeTime  | float | Time for the next fluctuation change                     |
+| nextCutOff  | float | Time for the next cutoff event                           |
+| emit        | bool  | Whether the light is currently emitting (during cutoffs) |
 
 ## Methods
 

@@ -24,12 +24,12 @@ Defines how position coordinates are interpreted for UI elements.
 | Anchored | Position relative to the panel's anchor points |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| name | string | Identifier for the UI panel |
-| openOnLoad | bool | Whether to automatically open the panel when initialized |
-| panelId | int | Internal ID for the panel (default: -1) |
-| open | bool | Whether the panel is currently open |
+| Property   | Type   | Description                                              |
+|------------|--------|----------------------------------------------------------|
+| name       | string | Identifier for the UI panel                              |
+| openOnLoad | bool   | Whether to automatically open the panel when initialized |
+| panelId    | int    | Internal ID for the panel (default: -1)                  |
+| open       | bool   | Whether the panel is currently open                      |
 
 ## Methods
 

@@ -23,12 +23,12 @@ Defines the type of background the camera should render.
 | Color | Uses a solid color for the background |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| name | string | Name identifier for the camera (default: "Main Camera") |
-| fieldOfView | float | The camera's field of view in degrees (default: 60) |
-| background | Background | Type of background to render (Skybox or Color) |
-| backColor | rgba | Background color when using Color background type (default: white) |
+| Property    | Type       | Description                                                        |
+|-------------|------------|--------------------------------------------------------------------|
+| name        | string     | Name identifier for the camera (default: "Main Camera")            |
+| fieldOfView | float      | The camera's field of view in degrees (default: 60)                |
+| background  | Background | Type of background to render (Skybox or Color)                     |
+| backColor   | rgba       | Background color when using Color background type (default: white) |
 
 ## Methods
 

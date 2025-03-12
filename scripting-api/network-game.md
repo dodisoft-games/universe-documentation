@@ -29,24 +29,24 @@ Defines the current state of the network connection.
 | ReadyToPlay | Connected and ready for gameplay |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| autoConnect | bool | Whether to automatically connect on start (default: true) |
-| maxPlayerPerLobby | int | Maximum number of players allowed in a lobby (default: 20) |
-| state | NetworkState | Current state of the network connection |
-| playerId | int | The local player's unique identifier |
-| playerName | string | The local player's name |
+| Property          | Type         | Description                                                |
+|-------------------|--------------|------------------------------------------------------------|
+| autoConnect       | bool         | Whether to automatically connect on start (default: true)  |
+| maxPlayerPerLobby | int          | Maximum number of players allowed in a lobby (default: 20) |
+| state             | NetworkState | Current state of the network connection                    |
+| playerId          | int          | The local player's unique identifier                       |
+| playerName        | string       | The local player's name                                    |
 
 ## Events
-| Event | Parameters | Description |
-|-------|------------|-------------|
-| OnStateChangedEvent | (NetworkState state) | Triggered when the network state changes |
-| ConnectedToLobbyEvent | () | Triggered when connected to a lobby |
-| DisconnectedEvent | () | Triggered when disconnected from the network |
-| ConnectedToRoomEvent | (string name) | Triggered when connected to a room |
-| LeftRoomEvent | () | Triggered when leaving a room |
-| PlayerEnterEvent | (int playerId) | Triggered when another player enters the room |
-| PlayerExitEvent | (int playerId) | Triggered when another player leaves the room |
+| Event                 | Parameters           | Description                                   |
+|-----------------------|----------------------|-----------------------------------------------|
+| OnStateChangedEvent   | (NetworkState state) | Triggered when the network state changes      |
+| ConnectedToLobbyEvent | ()                   | Triggered when connected to a lobby           |
+| DisconnectedEvent     | ()                   | Triggered when disconnected from the network  |
+| ConnectedToRoomEvent  | (string name)        | Triggered when connected to a room            |
+| LeftRoomEvent         | ()                   | Triggered when leaving a room                 |
+| PlayerEnterEvent      | (int playerId)       | Triggered when another player enters the room |
+| PlayerExitEvent       | (int playerId)       | Triggered when another player leaves the room |
 
 ## Methods
 

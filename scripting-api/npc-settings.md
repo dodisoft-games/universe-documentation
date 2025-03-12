@@ -28,20 +28,20 @@ Defines the general personality type of the NPC.
 | Custom | Custom-defined mood through other parameters |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| mood | Mood | The general personality type (affects behavior) |
-| aggresiveness | float | Tendency to engage in combat (0-100, default: 30) |
-| intelligence | float | Decision-making sophistication (0-100, default: 40) |
-| randomness | float | Unpredictability in behaviors (0-100, default: 50) |
-| learningSkills | float | Ability to adapt to player strategies (0-100, default: 30) |
-| follow | bool | Whether the NPC will follow targets (default: true) |
-| attack | bool | Whether the NPC can attack (default: true) |
-| protect | bool | Whether the NPC will protect allies (default: true) |
-| useWeapon | bool | Whether the NPC can use weapons (default: true) |
-| selfDefend | bool | Whether the NPC will defend itself when attacked (default: true) |
-| targetInSight | bool | Whether the NPC requires line of sight to targets (default: true) |
-| customAiModel | uniscript | Reference to a custom AI model script for advanced behavior |
+| Property       | Type      | Description                                                       |
+|----------------|-----------|-------------------------------------------------------------------|
+| mood           | Mood      | The general personality type (affects behavior)                   |
+| aggresiveness  | float     | Tendency to engage in combat (0-100, default: 30)                 |
+| intelligence   | float     | Decision-making sophistication (0-100, default: 40)               |
+| randomness     | float     | Unpredictability in behaviors (0-100, default: 50)                |
+| learningSkills | float     | Ability to adapt to player strategies (0-100, default: 30)        |
+| follow         | bool      | Whether the NPC will follow targets (default: true)               |
+| attack         | bool      | Whether the NPC can attack (default: true)                        |
+| protect        | bool      | Whether the NPC will protect allies (default: true)               |
+| useWeapon      | bool      | Whether the NPC can use weapons (default: true)                   |
+| selfDefend     | bool      | Whether the NPC will defend itself when attacked (default: true)  |
+| targetInSight  | bool      | Whether the NPC requires line of sight to targets (default: true) |
+| customAiModel  | uniscript | Reference to a custom AI model script for advanced behavior       |
 
 ## Methods
 

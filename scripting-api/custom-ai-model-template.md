@@ -13,13 +13,13 @@ The `CustomAiModelTemplate` class provides a template for creating custom AI beh
 `Universe.Character`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| overrideDecision | bool | When true, custom decision logic is used (default: true) |
-| overrideAction | bool | When true, custom action logic is used (default: true) |
-| overrideCollision | bool | When true, custom collision handling is used (default: true) |
-| overrideEvents | bool | When true, custom event handling is used (default: true) |
-| controller | NpcController | Reference to the NPC controller this model works with |
+| Property          | Type          | Description                                                  |
+|-------------------|---------------|--------------------------------------------------------------|
+| overrideDecision  | bool          | When true, custom decision logic is used (default: true)     |
+| overrideAction    | bool          | When true, custom action logic is used (default: true)       |
+| overrideCollision | bool          | When true, custom collision handling is used (default: true) |
+| overrideEvents    | bool          | When true, custom event handling is used (default: true)     |
+| controller        | NpcController | Reference to the NPC controller this model works with        |
 
 ## Methods
 

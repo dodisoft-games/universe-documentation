@@ -13,19 +13,19 @@ The `Scoreboard` class provides functionality for managing and storing high scor
 `Universe.Tools`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| boardId | string | Unique identifier for the scoreboard (default: "HighScores") |
-| maxItems | int | Maximum number of entries to keep in the scoreboard (default: 100) |
-| allowMultiple | bool | Whether a player can have multiple entries on the same scoreboard (default: false) |
-| scores | List | List of current scoreboard entries |
+| Property      | Type   | Description                                                                        |
+|---------------|--------|------------------------------------------------------------------------------------|
+| boardId       | string | Unique identifier for the scoreboard (default: "HighScores")                       |
+| maxItems      | int    | Maximum number of entries to keep in the scoreboard (default: 100)                 |
+| allowMultiple | bool   | Whether a player can have multiple entries on the same scoreboard (default: false) |
+| scores        | List   | List of current scoreboard entries                                                 |
 
 ## Events
-| Event | Parameters | Description |
-|-------|------------|-------------|
-| OnAddScoreComplete | (bool isOk, int index, string userId) | Triggered when a score addition operation completes |
-| OnGetScoreComplete | (bool isOk, List data) | Triggered when a score retrieval operation completes |
-| OnClearScoreComplete | (bool isOk) | Triggered when a scoreboard clear operation completes |
+| Event                | Parameters                            | Description                                           |
+|----------------------|---------------------------------------|-------------------------------------------------------|
+| OnAddScoreComplete   | (bool isOk, int index, string userId) | Triggered when a score addition operation completes   |
+| OnGetScoreComplete   | (bool isOk, List data)                | Triggered when a score retrieval operation completes  |
+| OnClearScoreComplete | (bool isOk)                           | Triggered when a scoreboard clear operation completes |
 
 ## Methods
 

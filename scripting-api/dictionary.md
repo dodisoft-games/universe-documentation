@@ -13,9 +13,9 @@ The `Dictionary` class provides a key-value collection implementation for the Un
 `Universe.Core`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| dict | dictionary | The internal dictionary data structure |
+| Property | Type       | Description                            |
+|----------|------------|----------------------------------------|
+| dict     | dictionary | The internal dictionary data structure |
 
 ## Methods
 

@@ -24,9 +24,9 @@ Defines the types of shaders available for assignment.
 | Particle | Specialized shader for particle effects |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| shader | Shaders | The shader type to apply to the object |
+| Property | Type    | Description                            |
+|----------|---------|----------------------------------------|
+| shader   | Shaders | The shader type to apply to the object |
 
 ## Methods
 

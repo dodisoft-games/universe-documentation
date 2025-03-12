@@ -13,9 +13,9 @@ The `FaceToCamera` class makes an object automatically rotate to face the active
 `Universe.Helper`
 
 ## Fields
-| Field | Type | Description |
-|-------|------|-------------|
-| uni | UniObject | Reference to the object this script is attached to |
+| Field | Type      | Description                                        |
+|-------|-----------|----------------------------------------------------|
+| uni   | UniObject | Reference to the object this script is attached to |
 
 ## Methods
 

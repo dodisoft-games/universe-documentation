@@ -13,9 +13,9 @@ The `RotateAround` class provides a simple way to make objects continuously rota
 `Universe.Helper`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| speed | vector3 | Rotation speed around each axis in degrees per second |
+| Property | Type    | Description                                           |
+|----------|---------|-------------------------------------------------------|
+| speed    | vector3 | Rotation speed around each axis in degrees per second |
 
 ## Methods
 

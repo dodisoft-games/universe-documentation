@@ -33,20 +33,20 @@ Defines the different data types supported by the type system.
 | Asset | Game asset references |
 
 ## Fields
-| Field | Type | Description |
-|-------|------|-------------|
-| intType | int | Internal type code for Integer (0) |
-| floatType | int | Internal type code for Float (1) |
-| boolType | int | Internal type code for Boolean (2) |
-| stringType | int | Internal type code for String (3) |
-| objectType | int | Internal type code for Object (4) |
-| vectorType | int | Internal type code for Vector3 (5) |
-| quaternionType | int | Internal type code for Quaternion (6) |
-| rgbaType | int | Internal type code for RGBA (7) |
-| assemblyType | int | Internal type code for Assembly (8) |
-| listType | int | Internal type code for List (9) |
-| dictionaryType | int | Internal type code for Dictionary (10) |
-| assetType | int | Internal type code for Asset (11) |
+| Field          | Type | Description                            |
+|----------------|------|----------------------------------------|
+| intType        | int  | Internal type code for Integer (0)     |
+| floatType      | int  | Internal type code for Float (1)       |
+| boolType       | int  | Internal type code for Boolean (2)     |
+| stringType     | int  | Internal type code for String (3)      |
+| objectType     | int  | Internal type code for Object (4)      |
+| vectorType     | int  | Internal type code for Vector3 (5)     |
+| quaternionType | int  | Internal type code for Quaternion (6)  |
+| rgbaType       | int  | Internal type code for RGBA (7)        |
+| assemblyType   | int  | Internal type code for Assembly (8)    |
+| listType       | int  | Internal type code for List (9)        |
+| dictionaryType | int  | Internal type code for Dictionary (10) |
+| assetType      | int  | Internal type code for Asset (11)      |
 
 ## Methods
 

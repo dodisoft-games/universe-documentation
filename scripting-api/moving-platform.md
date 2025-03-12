@@ -13,11 +13,11 @@ The `MovingPlatform` class is a core component for creating movable platforms th
 `Universe.Tools`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| position | vector3 | Current world position of the platform |
-| rotation | quaternion | Current world rotation of the platform |
-| uni | UniObject | Reference to the object this script is attached to |
+| Property | Type       | Description                                        |
+|----------|------------|----------------------------------------------------|
+| position | vector3    | Current world position of the platform             |
+| rotation | quaternion | Current world rotation of the platform             |
+| uni      | UniObject  | Reference to the object this script is attached to |
 
 ## Methods
 

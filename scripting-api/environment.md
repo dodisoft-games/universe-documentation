@@ -13,14 +13,14 @@ The `Environment` class provides functionality for controlling global environmen
 `Universe.Helper`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| fog | bool | Enables or disables fog in the scene |
-| fogDensity | float | Density of the fog when enabled (default: 0.02) |
-| fogColor | rgba | Color of the fog (default: white) |
-| skyColor | rgba | Color of the ambient light from the sky/above (default: white) |
-| medianColor | rgba | Color of the ambient light from the sides (default: light gray [0.8, 0.8, 0.8, 1]) |
-| groundColor | rgba | Color of the ambient light from below (default: dark gray [0.2, 0.2, 0.2, 1]) |
+| Property    | Type  | Description                                                                        |
+|-------------|-------|------------------------------------------------------------------------------------|
+| fog         | bool  | Enables or disables fog in the scene                                               |
+| fogDensity  | float | Density of the fog when enabled (default: 0.02)                                    |
+| fogColor    | rgba  | Color of the fog (default: white)                                                  |
+| skyColor    | rgba  | Color of the ambient light from the sky/above (default: white)                     |
+| medianColor | rgba  | Color of the ambient light from the sides (default: light gray [0.8, 0.8, 0.8, 1]) |
+| groundColor | rgba  | Color of the ambient light from below (default: dark gray [0.2, 0.2, 0.2, 1])      |
 
 ## Methods
 

@@ -13,18 +13,18 @@ The `FPSCameraOrbit` class implements a first-person camera system with mouse-lo
 `Universe.Helper`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| character | UniObject | The character object that the camera orbits around |
-| fpsCamera | UniObject | The camera object to control |
-| bindTarget | UniObject | Position target for the camera (where the camera should be) |
-| lookTarget | UniObject | Look target for the camera (what the camera should look at) |
-| xSensitivity | float | Horizontal rotation sensitivity (default: 10) |
-| ySensitivity | float | Vertical rotation sensitivity (default: 10) |
-| minY | float | Minimum vertical angle in degrees (default: -75) |
-| maxY | float | Maximum vertical angle in degrees (default: 75) |
-| moveSpeed | float | Speed at which the camera moves to its target position (default: 4) |
-| lookSpeed | float | Speed at which the camera rotates to look at its target (default: 4) |
+| Property     | Type      | Description                                                          |
+|--------------|-----------|----------------------------------------------------------------------|
+| character    | UniObject | The character object that the camera orbits around                   |
+| fpsCamera    | UniObject | The camera object to control                                         |
+| bindTarget   | UniObject | Position target for the camera (where the camera should be)          |
+| lookTarget   | UniObject | Look target for the camera (what the camera should look at)          |
+| xSensitivity | float     | Horizontal rotation sensitivity (default: 10)                        |
+| ySensitivity | float     | Vertical rotation sensitivity (default: 10)                          |
+| minY         | float     | Minimum vertical angle in degrees (default: -75)                     |
+| maxY         | float     | Maximum vertical angle in degrees (default: 75)                      |
+| moveSpeed    | float     | Speed at which the camera moves to its target position (default: 4)  |
+| lookSpeed    | float     | Speed at which the camera rotates to look at its target (default: 4) |
 
 ## Methods
 

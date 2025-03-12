@@ -13,34 +13,34 @@ The `MotionOverride` class allows customization of a character's animation set b
 `Universe.Character`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| idle | UniAsset | Animation played when the character is standing still |
-| run | UniAsset | Animation played when the character is running forward |
-| runBack | UniAsset | Animation played when the character is running backward |
-| jump | UniAsset | Animation played when the character is jumping |
-| walk | UniAsset | Animation played when the character is walking forward |
-| walkBack | UniAsset | Animation played when the character is walking backward |
-| walkLeft | UniAsset | Animation played when the character is walking to the left |
-| walkRight | UniAsset | Animation played when the character is walking to the right |
-| turnLeft | UniAsset | Animation played when the character is turning left |
-| turnRight | UniAsset | Animation played when the character is turning right |
-| climbIdle | UniAsset | Animation played when the character is idle on a climbing surface |
-| climbUp | UniAsset | Animation played when the character is climbing upward |
-| climbDown | UniAsset | Animation played when the character is climbing downward |
-| climbLeft | UniAsset | Animation played when the character is climbing to the left |
-| climbRight | UniAsset | Animation played when the character is climbing to the right |
-| swim | UniAsset | Animation played when the character is swimming |
-| dive | UniAsset | Animation played when the character is diving underwater |
-| fall | UniAsset | Animation played when the character is falling |
-| crouch | UniAsset | Animation played when the character is crouching |
-| drop | UniAsset | Animation played when the character is dropping from a height |
-| punch | UniAsset | Animation played when the character is punching |
-| kick | UniAsset | Animation played when the character is kicking |
-| pistol | UniAsset | Animation played when the character is using a pistol |
-| riffle | UniAsset | Animation played when the character is using a rifle |
-| sit | UniAsset | Animation played when the character is sitting |
-| lay | UniAsset | Animation played when the character is lying down |
+| Property   | Type     | Description                                                       |
+|------------|----------|-------------------------------------------------------------------|
+| idle       | UniAsset | Animation played when the character is standing still             |
+| run        | UniAsset | Animation played when the character is running forward            |
+| runBack    | UniAsset | Animation played when the character is running backward           |
+| jump       | UniAsset | Animation played when the character is jumping                    |
+| walk       | UniAsset | Animation played when the character is walking forward            |
+| walkBack   | UniAsset | Animation played when the character is walking backward           |
+| walkLeft   | UniAsset | Animation played when the character is walking to the left        |
+| walkRight  | UniAsset | Animation played when the character is walking to the right       |
+| turnLeft   | UniAsset | Animation played when the character is turning left               |
+| turnRight  | UniAsset | Animation played when the character is turning right              |
+| climbIdle  | UniAsset | Animation played when the character is idle on a climbing surface |
+| climbUp    | UniAsset | Animation played when the character is climbing upward            |
+| climbDown  | UniAsset | Animation played when the character is climbing downward          |
+| climbLeft  | UniAsset | Animation played when the character is climbing to the left       |
+| climbRight | UniAsset | Animation played when the character is climbing to the right      |
+| swim       | UniAsset | Animation played when the character is swimming                   |
+| dive       | UniAsset | Animation played when the character is diving underwater          |
+| fall       | UniAsset | Animation played when the character is falling                    |
+| crouch     | UniAsset | Animation played when the character is crouching                  |
+| drop       | UniAsset | Animation played when the character is dropping from a height     |
+| punch      | UniAsset | Animation played when the character is punching                   |
+| kick       | UniAsset | Animation played when the character is kicking                    |
+| pistol     | UniAsset | Animation played when the character is using a pistol             |
+| riffle     | UniAsset | Animation played when the character is using a rifle              |
+| sit        | UniAsset | Animation played when the character is sitting                    |
+| lay        | UniAsset | Animation played when the character is lying down                 |
 
 ## Example Usage
 ```csharp

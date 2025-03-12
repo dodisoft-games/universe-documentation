@@ -13,9 +13,9 @@ The `List` class provides a dynamic array implementation for the Universe framew
 `Universe.Core`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| lst | list | The internal list data structure |
+| Property | Type | Description                      |
+|----------|------|----------------------------------|
+| lst      | list | The internal list data structure |
 
 ## Methods
 

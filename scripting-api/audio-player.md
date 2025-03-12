@@ -23,16 +23,16 @@ Defines how sound attenuation is calculated over distance.
 | Linear | Sound attenuates linearly with distance |
 
 ## Properties
+| Property  | Type             | Description                                                                    |
+|-----------|------------------|--------------------------------------------------------------------------------|
+| clip      | UniAsset         | The audio clip to play                                                         |
+| mode      | DistributionMode | Determines how sound volume decreases over distance                            |
+| volume    | float            | The base volume of the audio clip (default: 1)                                 |
+| range     | float            | The maximum distance the sound can be heard from (default: 200)                |
+| autoStart | bool             | When true, the audio will play automatically on initialization (default: true) |
+| is3D      | bool             | When true, the sound is positioned in 3D space (default: true)                 |
+| loop      | bool             | When true, the audio will loop continuously (default: false)                   |
 
-| Property | Type | Description |
-|----------|------|-------------|
-| clip | UniAsset | The audio clip to play |
-| mode | DistributionMode | Determines how sound volume decreases over distance |
-| volume | float | The base volume of the audio clip (default: 1) |
-| range | float | The maximum distance the sound can be heard from (default: 200) |
-| autoStart | bool | When true, the audio will play automatically on initialization (default: true) |
-| is3D | bool | When true, the sound is positioned in 3D space (default: true) |
-| loop | bool | When true, the audio will loop continuously (default: false) |
 
 ## Methods
 

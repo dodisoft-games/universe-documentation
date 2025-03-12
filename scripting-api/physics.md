@@ -38,19 +38,19 @@ Defines the physical material properties of the object.
 | PerfectBouncing | Maximum bounce with near-perfect energy conservation |
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| eventReceiver | uniscript | Script that receives collision events |
-| gravity | bool | Whether the object is affected by gravity (default: true) |
-| freeze | bool | Whether the object's position and rotation are frozen |
-| mass | float | Mass of the object in kilograms (default: 1) |
-| friction | float | Friction coefficient of the object (default: 0.1) |
-| lockXPosition | bool | Constrains movement along the X axis (default: false) |
-| lockYPosition | bool | Constrains movement along the Y axis (default: false) |
-| lockZPosition | bool | Constrains movement along the Z axis (default: false) |
-| lockXRotation | bool | Constrains rotation around the X axis (default: false) |
-| lockYRotation | bool | Constrains rotation around the Y axis (default: false) |
-| lockZRotation | bool | Constrains rotation around the Z axis (default: false) |
+| Property      | Type      | Description                                               |
+|---------------|-----------|-----------------------------------------------------------|
+| eventReceiver | uniscript | Script that receives collision events                     |
+| gravity       | bool      | Whether the object is affected by gravity (default: true) |
+| freeze        | bool      | Whether the object's position and rotation are frozen     |
+| mass          | float     | Mass of the object in kilograms (default: 1)              |
+| friction      | float     | Friction coefficient of the object (default: 0.1)         |
+| lockXPosition | bool      | Constrains movement along the X axis (default: false)     |
+| lockYPosition | bool      | Constrains movement along the Y axis (default: false)     |
+| lockZPosition | bool      | Constrains movement along the Z axis (default: false)     |
+| lockXRotation | bool      | Constrains rotation around the X axis (default: false)    |
+| lockYRotation | bool      | Constrains rotation around the Y axis (default: false)    |
+| lockZRotation | bool      | Constrains rotation around the Z axis (default: false)    |
 
 ## Methods
 

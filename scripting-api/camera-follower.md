@@ -13,14 +13,14 @@ The `CameraFollower` class provides functionality for a camera to follow a targe
 `Universe.Helper`
 
 ## Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| target | UniObject | The object to follow |
-| safeZone | float | Minimum distance to maintain from the target (default: 1) |
-| distance | float | Desired follow distance from the target (default: 3) |
-| height | float | Height offset above the target (default: 2) |
-| moveSpeed | float | Speed at which the camera moves to catch up with the target (default: 1) |
-| lookSpeed | float | Speed at which the camera rotates to look at the target (default: 8) |
+| Property  | Type      | Description                                                              |
+|-----------|-----------|--------------------------------------------------------------------------|
+| target    | UniObject | The object to follow                                                     |
+| safeZone  | float     | Minimum distance to maintain from the target (default: 1)                |
+| distance  | float     | Desired follow distance from the target (default: 3)                     |
+| height    | float     | Height offset above the target (default: 2)                              |
+| moveSpeed | float     | Speed at which the camera moves to catch up with the target (default: 1) |
+| lookSpeed | float     | Speed at which the camera rotates to look at the target (default: 8)     |
 
 ## Methods
 

@@ -13,6 +13,7 @@ The `AccessoryAttachment` class is used to attach accessories to character bones
 `Universe.Character`
 
 ## Properties
+
 | Property     | Type          | Description                                                               |
 |--------------|---------------|---------------------------------------------------------------------------|
 | character    | Character     | Reference to the character the accessory will be attached to              |

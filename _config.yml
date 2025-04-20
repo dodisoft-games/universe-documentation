@@ -27,6 +27,11 @@ url: "https://dodisoft-games.github.io" # the base hostname & protocol for your 
 twitter_username: dodidodidodi
 github_username:  dodidodidodi
 
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
+
 # Build settings
 theme: just-the-docs
 color_scheme: dark
